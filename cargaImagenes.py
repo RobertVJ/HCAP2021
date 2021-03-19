@@ -15,7 +15,6 @@ IGS=cv2.cvtColor(IRGB,cv2.COLOR_BGR2GRAY)
 print(IGS)
 print(IGS.shape)
 
+cv2.imwrite('004GS.jpg',IGS)
 
-print("Este es una modificacion en la rama principal para generar conflicto")
-print(len(IRGB))
 
